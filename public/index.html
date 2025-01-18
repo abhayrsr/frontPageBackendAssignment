@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Hacker News Scraper</title>
+    <style>
+      body {
+        margin: 0;
+        padding-bottom: 3rem;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif;
+      }
+      #heading {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+      }
+    </style>
+    <script src="/socket.io/socket.io.js"></script>
+  </head>
+  <body>
+    <h1 id="heading">Hacker News Scraper</h1>
+    <h5 id="fiveMinutesStories"></h5>
+    <ul id="storiesList"></ul>
+  </body>
+  <script>
+    const socket = io();
+    const fiveMinutesStories = document.getElementById('fiveMinutesStories');
+    const storiesList = document.getElementById("storiesList");
+
+    socket.on("newStories", (stories) => {
+        console.log(stories);
+        const storiesList = document.getElementById("storiesList");
+        storiesList.innerHTML = '';
+
+        stories.map((story) => {
+            const listItem = document.createElement('li');
+            listItem.textContent = story.title;
+            
+            const link = document.createElement('a');
+            link.textContent = "Link";
+            link.setAttribute('href', story.link);
+
+            listItem.appendChild(link);
+            storiesList.appendChild(listItem);
+
+        })
+    })
+  </script>
+</html>
