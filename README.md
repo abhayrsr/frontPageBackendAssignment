@@ -44,17 +44,17 @@ This project scrapes real-time stories from Hacker News and broadcasts updates u
 ## 3. Configure the Database
 
 ### SQL Schema
-
-    ```sql
-    CREATE DATABASE stories_hacker_news;
-    USE stories_hacker_news;
-    CREATE TABLE story (
+```sql
+CREATE DATABASE stories_hacker_news;
+USE stories_hacker_news;
+CREATE TABLE story (
     id INT PRIMARY KEY AUTO_INCREMENT,
     title VARCHAR(255) NOT NULL,
     link VARCHAR(512) NOT NULL UNIQUE,
     created TIMESTAMP NOT NULL DEFAULT NOW()
-    );
-    ```
+);
+```
+    
 ### Update the database credentials in .env
 
 
@@ -74,7 +74,8 @@ This project scrapes real-time stories from Hacker News and broadcasts updates u
    SHOW DATABASES;
    USE stories_hacker_news;
    SHOW TABLES;
-````
+   
+
 
 ## 4. Start the Server
 
@@ -86,7 +87,7 @@ npm run dev
 
 Type the below url in the web browser
 
-```plaintext
+```sh
 http://localhost:{portNumber}/
 ```
 
