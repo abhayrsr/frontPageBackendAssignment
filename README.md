@@ -1,4 +1,4 @@
-# frontPageBackendAssignment
+# FrontPage Backend Assignment
 
 This project scrapes real-time stories from Hacker News and broadcasts updates using WebSockets. It also stores the data in a MySQL database. Users can view the latest stories and count of stories published in the last 5 minutes.
 
