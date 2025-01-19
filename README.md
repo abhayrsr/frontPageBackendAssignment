@@ -12,11 +12,11 @@ This project scrapes real-time stories from Hacker News and broadcasts updates u
 
 # Technologies Used
 
-- | Backend |: Node.js, Express.js
-- | Database |: MySQL
-- | Frontend |: HTML, CSS, JavaScript
-- | Real-Time Communication |: WebSockets (via Socket.IO)
-- | Web Scraping |: Puppeteer
+- **Backend**: Node.js, Express.js
+- **Database**: MySQL
+- **Frontend**: HTML, CSS, JavaScript
+- **Real-Time Communication**: WebSockets (via Socket.IO)
+- **Web Scraping**: Puppeteer
 
 # Setup Instructions
 
@@ -45,28 +45,25 @@ This project scrapes real-time stories from Hacker News and broadcasts updates u
 
 ### SQL Schema
 
-      ```sql
-
-CREATE DATABASE stories_hacker_news;
-USE stories_hacker_news;
-
-CREATE TABLE story (
-id INT PRIMARY KEY AUTO_INCREMENT,
-title VARCHAR(255) NOT NULL,
-link VARCHAR(512) NOT NULL UNIQUE,
-created TIMESTAMP NOT NULL DEFAULT NOW()
-);
-
-```
+    ```sql
+    CREATE DATABASE stories_hacker_news;
+    USE stories_hacker_news;
+    CREATE TABLE story (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    title VARCHAR(255) NOT NULL,
+    link VARCHAR(512) NOT NULL UNIQUE,
+    created TIMESTAMP NOT NULL DEFAULT NOW()
+    );
+    ```
 ### Update the database credentials in .env
 
-```plaintext
+
    MYSQL_HOST=localhost
    MYSQL_USER=your_username
    MYSQL_PASSWORD=your_password
    MYSQL_DATABASE=stories_hacker_news
    PORT=3000
-```
+
 
 ### Instructions
 
@@ -77,19 +74,16 @@ created TIMESTAMP NOT NULL DEFAULT NOW()
    SHOW DATABASES;
    USE stories_hacker_news;
    SHOW TABLES;
-   ```
+````
+
 ## 4. Start the Server
 
-- Navigate to file server.js 
-```sh
-cd server.js
-```
-- Run the below command
 ```sh
 npm run dev
 ```
 
 ## 5. Open the frontend
+
 Type the below url in the web browser
 
 ```plaintext
@@ -116,9 +110,10 @@ frontpageBackendAssignments/
 ```
 
 # Acknowledgement
- - Hacker News (https://news.ycombinator.com) for providing the data.
- - Socket.IO for real-time WebSocket communication.
+
+- Hacker News (https://news.ycombinator.com) for providing the data.
+- Socket.IO for real-time WebSocket communication.
 
 # Contact
-For questions or suggestions, contact abhayrajsinghrana123@gmail.com.
 
+For questions or suggestions, contact abhayrajsinghrana123@gmail.com.
