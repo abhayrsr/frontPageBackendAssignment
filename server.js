@@ -4,11 +4,14 @@ import { dirname, join } from "node:path";
 import { Server } from "socket.io";
 import scrape from "./scraper.js";
 import http from "http";
-import storingStories from "./database.js";
+import storingStories from "./database/database.js";
+import dotenv from "dotenv";
+
 
 const app = express();
 const server = http.createServer(app);
 const io = new Server(server);
+dotenv.config();
 
 app.use(express.static("public"));
 
@@ -18,16 +21,18 @@ app.get("/", (req, res) => {
   res.sendFile(join(__dirname, "./public/index.html"));
 });
 
-server.listen(3000, () => {
-  console.log("server is running on port: 3000");
+server.listen(process.env.PORT, () => {
+  console.log("server is running");
 });
 
 const socketConnection = async () => {
   try {
     const stories = await scrape();
-    await storingStories();
+    const count = await storingStories(stories);
+    console.log(count)
     console.log("data saved completed");
     io.emit("newStories", stories);
+    io.emit("storiesCount", count);
   } catch (error) {
     console.log("Error fetching stories:", error);
   }

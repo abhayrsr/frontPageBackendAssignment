@@ -1,1 +1,182 @@
-[{"title":"Show HN: Interactive systemd – a better way to work with systemd units","link":"https://isd-project.github.io/isd/"},{"title":"Dusa Programming Language (Finite-Choice Logic Programming)","link":"https://dusa.rocks/docs/"},{"title":"Why do bees die when they sting you?","link":"https://www.subanima.org/bees/"},{"title":"Amazon's AI crawler is making my Git server unstable","link":"https://xeiaso.net/notes/2025/amazon-crawler/"},{"title":"The AMD Radeon Instinct MI300A's Giant Memory Subsystem","link":"https://chipsandcheese.com/p/inside-the-amd-radeon-instinct-mi300as"},{"title":"Generating an infinite world with the Wave Function Collapse algorithm","link":"https://marian42.de/article/infinite-wfc/"},{"title":"Saint Peter Basilica digital experience","link":"https://virtual.basilicasanpietro.va/en"},{"title":"Portrait of the Hilbert Curve (2010)","link":"https://corte.si/posts/code/hilbert/portrait/"},{"title":"atproto and the ownership of identity","link":"https://anirudh.fi/blog/identity/"},{"title":"O1 isn't a chat model (and that's the point)","link":"https://www.latent.space/p/o1-skill-issue"},{"title":"Rule-Based Programming in Interactive Fiction","link":"https://eblong.com/zarf/essays/rule-based-if/index.html"},{"title":"TCL's bet on screens that look like paper","link":"https://notes.ghed.in/posts/2025/tcl-nxtpaper-screen-tech/"},{"title":"Show HN: ZX Spectrum SCR to PNG Converter","link":"https://www.esp32rainbow.com/tools/scr-to-png"},{"title":"Investigating an “evil” RJ45 dongle","link":"https://lcamtuf.substack.com/p/investigating-an-evil-rj45-dongle"},{"title":"So you want to build your own data center","link":"https://blog.railway.com/p/data-center-build-part-one"},{"title":"Can you read this cursive handwriting? The National Archives wants your help","link":"https://www.smithsonianmag.com/smart-news/can-you-read-this-cursive-handwriting-the-national-archives-wants-your-help-180985833/"},{"title":"Shapecatcher – Find Unicode characters by drawing","link":"https://shapecatcher.com/"},{"title":"Playful Drawings That Charles Darwin's Children Left on His Manuscripts","link":"https://www.openculture.com/2025/01/discover-the-playful-drawings-that-charles-darwins-children-left-on-his-manuscripts.html"},{"title":"The Toyota Prius transformed the auto industry","link":"https://spectrum.ieee.org/toyota-prius-transformed-auto-industry"},{"title":"Designing a Star Tracker for Astronaut Don Pettit to Use on the ISS","link":"https://petapixel.com/2025/01/14/designing-a-star-tracker-for-astronaut-don-pettit-to-use-on-the-iss/"},{"title":"Higher potassium intake at dinner linked to fewer sleep disturbances – study","link":"https://www.nutraingredients-asia.com/Article/2025/01/07/higher-potassium-intake-at-dinner-linked-to-fewer-sleep-disturbances/"},{"title":"Has LLM killed traditional NLP?","link":"https://medium.com/altitudehq/is-traditional-nlp-dead-05544ae7d756"},{"title":"Branchless UTF-8 Encoding","link":"https://cceckman.com/writing/branchless-utf8-encoding/"},{"title":"Windows BitLocker – Screwed Without a Screwdriver","link":"https://neodyme.io/en/blog/bitlocker_screwed_without_a_screwdriver/"},{"title":"ELIZA Reanimated","link":"https://arxiv.org/abs/2501.06707"},{"title":"Lightcell: An engine that uses light to make electricity","link":"https://www.lightcellenergy.com/"},{"title":"Spellbrush (YC W18) Is Hiring Game Programmers (Anime SRPG/Tactics)","link":"https://news.ycombinator.com/item?id=42744820"},{"title":"Hands-On Graphics Without X11","link":"https://blogsystem5.substack.com/p/netbsd-graphics-wo-x11"},{"title":"DoubleClickjacking: A New type of web hacking technique","link":"https://www.paulosyibelo.com/2024/12/doubleclickjacking-what.html"},{"title":"French modernists were alarmed, inspired by newspaper's voracious dynamism","link":"https://aeon.co/essays/the-french-modernists-loathed-and-loved-the-mass-media-of-their-day"}]
+[
+  {
+    "title": "Top three insurers reaped $7.3B through their drug middlemen's markups, FTC says",
+    "link": "https://www.nbcnews.com/health/health-news/top-three-insurers-reaped-73-billion-drug-middlemens-markups-ftc-says-rcna187640",
+    "usTime": "2025-01-19T13:10:42 1737292242",
+    "created": "2025-01-19 18:40:42"
+  },
+  {
+    "title": "Bob Dylan's drafts for Mr Tambourine Man sell for more than £400k",
+    "link": "https://www.theguardian.com/music/2025/jan/18/bob-dylans-drafts-for-mr-tambourine-man-sell-for-more-than-400000",
+    "usTime": "2025-01-19T13:09:22 1737292162",
+    "created": "2025-01-19 18:39:22"
+  },
+  {
+    "title": "Moving on from React, a Year Later",
+    "link": "https://kellysutton.com/2025/01/18/moving-on-from-react-a-year-later.html",
+    "usTime": "2025-01-19T13:06:58 1737292018",
+    "created": "2025-01-19 18:36:58"
+  },
+  {
+    "title": "How Fable Legends Took Down Lionhead (2016)",
+    "link": "https://web.archive.org/web/20160610174002/http://www.kotaku.co.uk/2016/06/09/how-fable-legends-took-down-lionhead",
+    "usTime": "2025-01-19T13:06:29 1737291989",
+    "created": "2025-01-19 18:36:29"
+  },
+  {
+    "title": "How learning strengthens collective intelligence in a minimal agent",
+    "link": "https://thoughtforms.life/learning-to-be-how-learning-strengthens-the-emergent-nature-of-collective-intelligence-in-a-minimal-agent/",
+    "usTime": "2025-01-19T13:03:58 1737291838",
+    "created": "2025-01-19 18:33:58"
+  },
+  {
+    "title": "Why America is in an alcohol recession",
+    "link": "https://thehustle.co/news/why-america-is-in-an-alcohol-recession",
+    "usTime": "2025-01-19T13:03:08 1737291788",
+    "created": "2025-01-19 18:33:08"
+  },
+  {
+    "title": "Why calling laid-off tech employees 'low performers' is career-ending",
+    "link": "https://yteam.medium.com/how-labeling-laid-off-tech-workers-as-low-performers-destroys-careers-429458699098",
+    "usTime": "2025-01-19T12:59:27 1737291567",
+    "created": "2025-01-19 18:29:27"
+  },
+  {
+    "title": "Rehbinder Effect",
+    "link": "https://en.wikipedia.org/wiki/Rehbinder_effect",
+    "usTime": "2025-01-19T12:58:04 1737291484",
+    "created": "2025-01-19 18:28:04"
+  },
+  {
+    "title": "$Trump Meme Coin",
+    "link": "https://www.business-standard.com/markets/cryptocurrency/donald-trump-meme-coin-market-value-cryptocurrency-january-20-inauguration-125011900379_1.html",
+    "usTime": "2025-01-19T12:54:32 1737291272",
+    "created": "2025-01-19 18:24:32"
+  },
+  {
+    "title": "The new gold rush: why the precious metal has lost none of its allure",
+    "link": "https://www.theguardian.com/business/2025/jan/19/the-new-gold-rush-why-the-precious-metal-has-lost-none-of-its-allure",
+    "usTime": "2025-01-19T12:49:59 1737290999",
+    "created": "2025-01-19 18:19:59"
+  },
+  {
+    "title": "How has DeepSeek improved the Transformer architecture?",
+    "link": "https://epoch.ai/gradient-updates/how-has-deepseek-improved-the-transformer-architecture",
+    "usTime": "2025-01-19T12:44:57 1737290697",
+    "created": "2025-01-19 18:14:57"
+  },
+  {
+    "title": "The Terrifying Realization That an Unresponsive Patient Is Still in There",
+    "link": "https://www.nytimes.com/2025/01/11/opinion/covert-consciousness-unresponsive-brain.html",
+    "usTime": "2025-01-19T12:44:39 1737290679",
+    "created": "2025-01-19 18:14:39"
+  },
+  {
+    "title": "The state of Python packaging in 2021",
+    "link": "https://venthur.de/2021-06-26-python-packaging.html",
+    "usTime": "2025-01-19T12:42:02 1737290522",
+    "created": "2025-01-19 18:12:02"
+  },
+  {
+    "title": "Beard Tax",
+    "link": "https://en.wikipedia.org/wiki/Beard_tax",
+    "usTime": "2025-01-19T12:41:30 1737290490",
+    "created": "2025-01-19 18:11:30"
+  },
+  {
+    "title": "Why Aren't You Idempotent?",
+    "link": "https://lightfoot.dev/why-arent-you-idempotent/",
+    "usTime": "2025-01-19T12:40:47 1737290447",
+    "created": "2025-01-19 18:10:47"
+  },
+  {
+    "title": "The King of Ozempic Is Scared as Hell",
+    "link": "https://www.wired.com/story/novo-nordisk-king-of-ozempic-scared-as-hell/",
+    "usTime": "2025-01-19T12:39:10 1737290350",
+    "created": "2025-01-19 18:09:10"
+  },
+  {
+    "title": "Insider trading allegations surface as TRUMP memecoin floods Solana DEXs",
+    "link": "https://www.tradingview.com/news/cointelegraph:97b0c0bc5094b:0-insider-trading-allegations-surface-as-trump-memecoin-floods-solana-dexs/",
+    "usTime": "2025-01-19T12:37:19 1737290239",
+    "created": "2025-01-19 18:07:19"
+  },
+  {
+    "title": "HasTikTokBeenBanned?",
+    "link": "https://hastiktokbeenbanned.com/",
+    "usTime": "2025-01-19T12:29:47 1737289787",
+    "created": "2025-01-19 17:59:47"
+  },
+  {
+    "title": "Researchers seek to expand 'citizen scientist' testing of UK river quality",
+    "link": "https://www.theguardian.com/environment/2025/jan/03/uk-river-quality-citizen-scientist-testing",
+    "usTime": "2025-01-19T12:26:53 1737289613",
+    "created": "2025-01-19 17:56:53"
+  },
+  {
+    "title": "Building an Event Ticketing App for Africa and Beyond",
+    "link": "https://eventdey.com/",
+    "usTime": "2025-01-19T12:26:52 1737289612",
+    "created": "2025-01-19 17:56:52"
+  },
+  {
+    "title": "Prestige Hunt",
+    "link": "https://prestigehunt.com/",
+    "usTime": "2025-01-19T12:25:51 1737289551",
+    "created": "2025-01-19 17:55:51"
+  },
+  {
+    "title": "Will the new presidency affect WFH for federal workers?",
+    "link": "https://thehill.com/lobbying/5079244-will-the-new-presidency-affect-wfh-for-federal-workers/",
+    "usTime": "2025-01-19T12:23:28 1737289408",
+    "created": "2025-01-19 17:53:28"
+  },
+  {
+    "title": "Luca is the progenitor of all life on Earth",
+    "link": "https://www.theguardian.com/science/2025/jan/19/luca-is-the-progenitor-of-all-life-on-earth-but-its-genesis-has-implications-far-beyond-our-planet",
+    "usTime": "2025-01-19T12:19:56 1737289196",
+    "created": "2025-01-19 17:49:56"
+  },
+  {
+    "title": "Creating wrappers for Windows exe files using Homebrew and Wine",
+    "link": "https://flaky.build/creating-wrappers-for-windows-exe-files-using-homebrew-and-wine",
+    "usTime": "2025-01-19T12:13:50 1737288830",
+    "created": "2025-01-19 17:43:50"
+  },
+  {
+    "title": "About A comprehensive guide for Linux Network (Socket) programming",
+    "link": "https://github.com/nguyenchiemminhvu/LinuxNetworkProgramming",
+    "usTime": "2025-01-19T12:13:46 1737288826",
+    "created": "2025-01-19 17:43:46"
+  },
+  {
+    "title": "MarvelSnap Game Also Goes Dark and Is Pulled from AppStores Because of TikTokBan",
+    "link": "https://variety.com/2025/digital/news/marvel-snap-shut-down-tiktok-ban-bytedance-1236278280/",
+    "usTime": "2025-01-19T12:11:36 1737288696",
+    "created": "2025-01-19 17:41:36"
+  },
+  {
+    "title": "Ask HN: How Do AI Apps Like ChatGPT Achieve Such High Speeds?",
+    "link": "https://news.ycombinator.com/item?id=42756348",
+    "usTime": "2025-01-19T12:11:34 1737288694",
+    "created": "2025-01-19 17:41:34"
+  },
+  {
+    "title": "About CPUs, Languages, and Development Methods [pdf]",
+    "link": "https://www.ignorantus.com/books/real/Real_Programming_ch02.pdf",
+    "usTime": "2025-01-19T12:09:11 1737288551",
+    "created": "2025-01-19 17:39:11"
+  },
+  {
+    "title": "Apple says it's following the law by removing TikTok from the App Store",
+    "link": "https://www.theverge.com/2025/1/19/24347077/tiktok-ban-apple-app-store-bytedance",
+    "usTime": "2025-01-19T12:07:19 1737288439",
+    "created": "2025-01-19 17:37:19"
+  },
+  {
+    "title": "Humor as a window into generative AI bias",
+    "link": "https://www.nature.com/articles/s41598-024-83384-6",
+    "usTime": "2025-01-19T12:06:59 1737288419",
+    "created": "2025-01-19 17:36:59"
+  }
+]
