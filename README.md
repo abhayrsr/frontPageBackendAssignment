@@ -42,6 +42,7 @@ This project scrapes real-time stories from Hacker News and broadcasts updates u
 ### 4. Configure the Database
 
 #### SQL Schema
+
 ```sql
 CREATE DATABASE stories_hacker_news;
 USE stories_hacker_news;
@@ -55,26 +56,25 @@ CREATE TABLE story (
     
 #### Update the database credentials in .env
 
-
-   MYSQL_HOST=localhost
-   MYSQL_USER=your_username
-   MYSQL_PASSWORD=your_password
-   MYSQL_DATABASE=stories_hacker_news
-   PORT=3000
-
+```mysql
+MYSQL_HOST=localhost
+MYSQL_USER=your_username
+MYSQL_PASSWORD=your_password
+MYSQL_DATABASE=stories_hacker_news
+PORT=3000
+```
 
 #### Instructions
 
 1. **Access MySQL**: Log in to your MySQL server using your preferred MySQL client or command line.
 2. **Run the SQL Commands**: Copy and paste the SQL commands above into your MySQL client to create the database and table.
 3. **Verify the Setup**: You can verify that the database and table were created successfully by running:
+
    ```sql
    SHOW DATABASES;
    USE stories_hacker_news;
    SHOW TABLES;
-   
-
-
+   ```
 ### 4. Start the Server
 
 ```sh
