@@ -1,16 +1,14 @@
 # frontPageBackendAssignment
 
-## Project Description
-
 This project scrapes real-time stories from Hacker News and broadcasts updates using WebSockets. It also stores the data in a MySQL database. Users can view the latest stories and count of stories published in the last 5 minutes.
 
-# Features
+## Features
 
 - Periodically scrapes stories from Hacker News.
 - Broadcasts real-time updates to connected clients via WebSockets.
 - Displays a user-friendly frontend with live updates.
 
-# Technologies Used
+## Technologies Used
 
 - **Backend**: Node.js, Express.js
 - **Database**: MySQL
@@ -18,15 +16,15 @@ This project scrapes real-time stories from Hacker News and broadcasts updates u
 - **Real-Time Communication**: WebSockets (via Socket.IO)
 - **Web Scraping**: Puppeteer
 
-# Setup Instructions
+## Setup Instructions
 
-## Prerequisites
+### 1. Prerequisites
 
 1. Node.js (>= v14)
 2. MySQL database
 3. npm (Node Package Manager)
 
-## 1. Clone the Repository
+### 2. Clone the Repository
 
 ```sh
    git clone https://github.com/your-username/frontPageBackendAssignment.git
@@ -34,16 +32,16 @@ This project scrapes real-time stories from Hacker News and broadcasts updates u
 
 ```
 
-## 2. Install Dependencies
+### 3. Install Dependencies
 
 ```sh
    npm install
 
 ```
 
-## 3. Configure the Database
+### 4. Configure the Database
 
-### SQL Schema
+#### SQL Schema
 ```sql
 CREATE DATABASE stories_hacker_news;
 USE stories_hacker_news;
@@ -55,7 +53,7 @@ CREATE TABLE story (
 );
 ```
     
-### Update the database credentials in .env
+#### Update the database credentials in .env
 
 
    MYSQL_HOST=localhost
@@ -65,7 +63,7 @@ CREATE TABLE story (
    PORT=3000
 
 
-### Instructions
+#### Instructions
 
 1. **Access MySQL**: Log in to your MySQL server using your preferred MySQL client or command line.
 2. **Run the SQL Commands**: Copy and paste the SQL commands above into your MySQL client to create the database and table.
@@ -77,13 +75,13 @@ CREATE TABLE story (
    
 
 
-## 4. Start the Server
+### 4. Start the Server
 
 ```sh
 npm run dev
 ```
 
-## 5. Open the frontend
+### 5. Open the frontend
 
 Type the below url in the web browser
 
@@ -91,7 +89,7 @@ Type the below url in the web browser
 http://localhost:{portNumber}/
 ```
 
-# Project File Structure
+## Project File Structure
 
 ```
 frontpageBackendAssignments/
@@ -110,11 +108,11 @@ frontpageBackendAssignments/
 └── README.md              # Project documentation
 ```
 
-# Acknowledgement
+## Acknowledgement
 
 - Hacker News (https://news.ycombinator.com) for providing the data.
 - Socket.IO for real-time WebSocket communication.
 
-# Contact
+## Contact
 
 For questions or suggestions, contact abhayrajsinghrana123@gmail.com.
