@@ -115,4 +115,4 @@ frontpageBackendAssignments/
 
 ## Contact
 
-For questions or suggestions, contact abhayrajsinghrana123@gmail.com.
+For questions or suggestions, contact abhayrajsinghrana123@gmail.com
